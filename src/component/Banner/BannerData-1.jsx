@@ -17,7 +17,6 @@ const BannerData1 = ({ data }) => {
               className="scale-125 w-full md:w-[840px] mx-auto drop-shadow-2xl object-cover"
             />
           </div>
-
           {/* Second column */}
           <div className="p-6 sm:p-8">
             <p data-aos="slide-right" className="text-sm sm:text-base">{data.discount}</p>

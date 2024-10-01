@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Buyhive
-**BuyHive** is an e-commerce brand landing page built using modern web technologies. This project showcases the brand's key offerings, deals, and features a responsive, aesthetically pleasing design. Built with React, Tailwind CSS, and Redux for state management, it demonstrates efficient component-based UI design and performance optimization.
+**BuyHive** is an e-commerce brand built using modern web technologies. This project showcases the brand's key offerings, deals, and features a responsive, aesthetically pleasing design. Built with React, Tailwind CSS, and Redux for state management, it demonstrates efficient component-based UI design and performance optimization.
 =======
 # BuyHive - E-commerce Landing Page
 
