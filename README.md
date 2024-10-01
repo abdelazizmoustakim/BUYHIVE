@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-Check out the live demo of BuyHive here: [BuyHive Live Demo](#) (Add your live demo URL here)
+Check out the live demo of BuyHive here: [BuyHive Live Demo](#) (https://buyhive1.netlify.app/)
 
 ## Features
 
