@@ -71,7 +71,6 @@ const App = () => {
         delay:100,
         offset: 100,
       }
-
     );
     AOS.refresh()  }
     ,[])
