@@ -3,8 +3,8 @@ import { IoMdSearch } from "react-icons/io";
 import { FaOpencart } from "react-icons/fa6";
 import { PiCaretDownFill } from "react-icons/pi";
 import { useSelector } from 'react-redux';
-import Signup from '../../SignUP-IN/signup';
-import Signin from '../../SignUP-IN/signin';
+import Signup from '../SignUP-IN/signup';
+import Signin from '../SignUP-IN/signin';
 import DarkMode from './Darkmode';
 
 const MenuLinks = [

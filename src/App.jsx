@@ -12,7 +12,7 @@ import Air2 from "./assets/hero/airpods2.png";
 import Air3 from "./assets/hero/smartwatch2-removebg-preview.png";
 import iphone16 from './assets/Hero/iphone-16.png'
 import iphonecol from "./assets/Hero/iphonecol.png"
-import Footer from './Footer/Footer';
+import Footer from './component/Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Product from "./component/Product/Product";
@@ -62,7 +62,6 @@ const BannerData2 = {
 
 
 const App = () => {
-
   useEffect(() => {
     AOS.init(
       {
@@ -71,6 +70,7 @@ const App = () => {
         delay:100,
         offset: 100,
       }
+
     );
     AOS.refresh()  }
     ,[])

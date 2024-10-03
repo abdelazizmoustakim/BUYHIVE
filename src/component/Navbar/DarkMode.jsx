@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { MdOutlineLightMode, MdDarkMode } from 'react-icons/md';
-
-import FloatingDarkMode from "./FloatingDarkMode"
+import FloatingDarkMode from "./FloatingDarkMode";
 
 const DarkMode = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-  const [showFloatingIcon, setShowFloatingIcon] = useState(false); // Track whether to show the floating icon
+  const [showFloatingIcon, setShowFloatingIcon] = useState(false);
 
   const element = document.documentElement;
 
@@ -18,23 +17,24 @@ const DarkMode = () => {
     }
   }, [theme]);
 
-  // Handle scroll event to show the floating icon when scrolling past the navbar
   useEffect(() => {
     const handleScroll = () => {
-      const navbarHeight = document.querySelector('nav').offsetHeight; // Get navbar height
-      const scrollPosition = window.scrollY;
+      const navbar = document.querySelector('nav');
+      
+      if (navbar) { // Check if the 'nav' element exists
+        const navbarHeight = navbar.offsetHeight; // Get navbar height
+        const scrollPosition = window.scrollY;
 
-      // Show the floating icon when scrolling past the navbar
-      if (scrollPosition > navbarHeight) {
-        setShowFloatingIcon(true);
-      } else {
-        setShowFloatingIcon(false);
+        if (scrollPosition > navbarHeight) {
+          setShowFloatingIcon(true);
+        } else {
+          setShowFloatingIcon(false);
+        }
       }
     };
 
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -69,7 +69,7 @@ const DarkMode = () => {
           )}
         </div>
       )}
-       <FloatingDarkMode theme={theme} toggleTheme={toggleTheme} />
+      <FloatingDarkMode theme={theme} toggleTheme={toggleTheme} />
     </>
   );
 };
