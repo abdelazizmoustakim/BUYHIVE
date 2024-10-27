@@ -17,10 +17,9 @@ const Footer = () => {
               About Me
             </h2>
             <p className="text-lg">
-              Hi, I'm <span className="font-semibold">Abdelaziz Moustakim</span>, a Full-Stack Developer and Computer Science student dedicated to creating seamless web experiences using modern technologies..
-            </p>
-            <p className="text-gray-300 dark:text-gray-500">
-              Passionate about solving complex problems and bringing ideas to life through code.
+            Hi, I'm <span className="font-semibold">Abdelaziz Moustakim</span>, a <span className="font-semibold">Full-stack developer</span> and <span className="font-semibold">Computer science student</span> dedicated to creating seamless web experiences using modern technologies. I'm also an aspiring <span className="font-semibold">software engineer</span>.
+            <span className="text-lg"> Here is a quick link to my </span><a href="https://www.azizmoustakim.com" className="font-semibold text-gray-200">portfolio</a>
+
             </p>
           </div>
 
@@ -29,7 +28,7 @@ const Footer = () => {
             <a href="#" className="text-4xl font-extrabold uppercase tracking-wider">
               BuyHive
             </a>
-            <p className="text-gray-300 dark:text-gray-500 mt-4 leading-relaxed">
+            <p className="text-lg">
               Discover cutting-edge technology and innovative gadgets, tailored to enhance your everyday life.
             </p>
           </div>
@@ -76,7 +75,7 @@ const Footer = () => {
 
         {/* Tech Stack Section */}
         <div className="flex flex-col md:flex-row flex-wrap justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mt-12" data-aos="fade-up" data-aos-delay="300">
-          <p className="text-lg font-light text-gray-300 dark:text-gray-500">
+          <p className="text-lg font-light text-gray-300 dark:text-gray-100">
             This project was built using:
           </p>
           <div className="flex flex-wrap justify-center gap-6">
@@ -104,7 +103,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="border-t border-gray-700 mt-16 pt-6 text-center text-gray-400 dark:text-gray-600" data-aos="fade-up" data-aos-delay="400">
+        <div className="border-t border-gray-700 mt-16 pt-6 text-center text-gray-400 dark:text-gray-100" data-aos="fade-up" data-aos-delay="400">
           <p>© {new Date().getFullYear()} BuyHive. All rights reserved.</p>
         </div>
       </div>

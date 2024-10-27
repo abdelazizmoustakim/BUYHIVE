@@ -10,6 +10,7 @@ import img7 from "../../assets/Product/p-7.jpeg";
 import img8 from "../../assets/Product/p-8.jpeg";
 import ProductCard from './ProductCard';
 
+
 const ProductsData = [
     {
         id:1,
@@ -21,55 +22,55 @@ const ProductsData = [
     {
         id:2,
         img: img2,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Macbook",
+        price: "1200",
         aosDelay: "0"
     },
     {
         id:3,
         img: img3,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Iphone 16",
+        price: "1400",
         aosDelay: "0"
     },
     {
         id:4,
         img: img4,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Ps4",
+        price: "300",
         aosDelay: "0"
     },
-]
-const ProductsData2 = [
+  ]
+  const ProductsData2 = [
     {
         id:1,
         img: img5,
-        title: "Boat Headphone",
+        title: "Airpods",
         price: "120",
         aosDelay: "0"
     },
     {
         id:2,
         img: img6,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Apple watch",
+        price: "320",
         aosDelay: "0"
     },
     {
         id:3,
         img: img7,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Jbl speaker",
+        price: "90",
         aosDelay: "0"
     },
     {
         id:4,
         img: img8,
-        title: "Boat Headphone",
-        price: "120",
+        title: "Ps5",
+        price: "600",
         aosDelay: "0"
     },
-]
+  ]
 const Product = () => {
   return (
     <div>
@@ -81,7 +82,6 @@ const Product = () => {
         {/* Body section */}
         <ProductCard data={ProductsData}/>
         <ProductCard data={ProductsData2}/>
-
       </div>
     </div>
   )

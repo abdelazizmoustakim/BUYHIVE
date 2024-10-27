@@ -104,7 +104,6 @@ const Hero = () => {
                     className='relative z-10'
                     >
                       <img
-                      
                         src={data.img}
                         alt=''
                         className='w-[400px] h-[500px] sm:w-[500px] sm:scale-105 lg:scale-110 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)] relative z-40'

@@ -30,7 +30,6 @@ const ServiceData = [
     description: "At BUYHIVE, we believe in providing high-quality products at affordable prices. Our cost-effective solutions ensure that you get the best value for your money without compromising on quality."
   },
 ];
-
 const Whyus = () => {
   return (
     <div className="container my-14 md:my-20">
